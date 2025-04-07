@@ -11,8 +11,8 @@
     "start": "nodemon server.js",
     "build": "exit 0",
     "lint": "eslint ./api/**/*.js ./server.js",
-    "test": "mocha --timeout 10000 --reporter mocha-multi-reporters --reporter-options configFile=test/config.json",
-   },
+    "test": "mocha --timeout 10000 --reporter mocha-multi-reporters --reporter-options configFile=test/config.json"
+  },
   "keywords": [
     "azure",
     "pipelines",
